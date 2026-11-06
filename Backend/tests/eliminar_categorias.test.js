@@ -39,6 +39,13 @@ test('con productos → 409; sin ellos, el Vendedor recibe 403 y el Administrado
   assert.equal(conProducto.status, 409);
   assert.equal(conProducto.body.message, 'Esta categoría tiene productos asociados; puedes inactivarla.');
 
+  // El DELETE que usa la web tampoco la deja eliminar (ni inactivar) mientras tenga productos.
+  const eliminarWeb = await api(admin, 'DELETE', `/categorias/${categoria.id_categoria}`);
+  assert.equal(eliminarWeb.status, 409);
+  assert.equal(eliminarWeb.body.message, 'Esta categoría tiene productos asociados; puedes inactivarla.');
+  const sigue = await api(admin, 'GET', `/categorias/${categoria.id_categoria}`);
+  assert.equal(sigue.body.data.estado, 'Activo');
+
   assert.equal((await api(admin, 'DELETE', `/productos/${producto.id_producto}/definitivo`)).status, 200);
   producto = null;
 

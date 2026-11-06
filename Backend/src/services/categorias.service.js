@@ -1,6 +1,7 @@
 import { query } from '../config/db.js';
 import { eliminarSinAsociados } from '../utils/eliminacion.js';
 import { borrarArchivo, publicIdDeUrlLocal } from '../utils/almacenamiento.js';
+import { conflict } from '../utils/httpError.js';
 
 /**
  * Cambio de imagen al editar: quitar_imagen = true la borra; un imagen_url
@@ -22,6 +23,7 @@ async function cambioDeImagen(id, data) {
   };
 }
 
+const MENSAJE_CON_PRODUCTOS = 'Esta categoría tiene productos asociados; puedes inactivarla.';
 
 export class CategoriasService {
   /**
@@ -94,15 +96,22 @@ export class CategoriasService {
       id,
       noEncontrado: 'Categoría no encontrada',
       asociados: [
-        { sql: 'SELECT 1 FROM producto WHERE id_categoria = $1', mensaje: 'Esta categoría tiene productos asociados; puedes inactivarla.' },
+        { sql: 'SELECT 1 FROM producto WHERE id_categoria = $1', mensaje: MENSAJE_CON_PRODUCTOS },
       ],
     });
     await borrarArchivo(fila.imagen_public_id || publicIdDeUrlLocal(fila.imagen_url));
     return fila;
   }
 
-  /** Inactiva el registro (sin borrado físico: conserva el historial). */
+  /**
+   * Eliminar desde la web: inactiva el registro (sin borrado físico). Si la
+   * categoría tiene productos (activos o inactivos) no se deja eliminar: 409.
+   */
   static async delete(id) {
+    const existe = await query('SELECT 1 FROM categoria_producto WHERE id_categoria = $1', [id]);
+    if (existe.rows.length === 0) return false;
+    const conProductos = await query('SELECT 1 FROM producto WHERE id_categoria = $1 LIMIT 1', [id]);
+    if (conProductos.rows.length > 0) throw conflict(MENSAJE_CON_PRODUCTOS);
     const res = await query(
       `UPDATE categoria_producto SET estado = 'Inactivo' WHERE id_categoria = $1 RETURNING id_categoria`,
       [id]
