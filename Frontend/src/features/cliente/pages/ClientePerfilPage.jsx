@@ -4,6 +4,7 @@ import { Eye, EyeOff, KeyRound, Loader2, ShieldAlert, UserRound } from 'lucide-r
 import { actualizarMiPerfil, cambiarMiContrasena, completarMiPerfil, getMiPerfil } from '../services/cuentaService';
 import { actualizarUsuarioGuardado, leerUsuario, tieneFicha } from '../utils/sesion';
 import { MUNICIPIOS_ENTREGA, TIPOS_DOCUMENTO } from '../../../shared/config/negocio';
+import { BarriosDatalist, listaBarriosDe } from '../../../shared/components/BarriosDatalist';
 import ErrorBanner from '../../../shared/components/ErrorBanner';
 import { Skeleton } from '../../../shared/components/Skeleton';
 import { toast } from '../../../shared/utils/toast.jsx';
@@ -111,7 +112,8 @@ function CompletarPerfil() {
             </select>
           </Campo>
           <Campo id="barrio" etiqueta="Barrio" error={errores.barrio}>
-            <input id="barrio" value={datos.barrio} onChange={cambiar('barrio')} className={campoClase(errores.barrio)} />
+            <input id="barrio" list={listaBarriosDe(datos.municipio)} autoComplete="off" value={datos.barrio} onChange={cambiar('barrio')} className={campoClase(errores.barrio)} />
+            <BarriosDatalist municipio={datos.municipio} />
           </Campo>
         </div>
         <Campo id="direccion" etiqueta="Dirección" error={errores.direccion}>
@@ -281,7 +283,8 @@ function EditarPerfil() {
             </select>
           </Campo>
           <Campo id="perfil_barrio" etiqueta="Barrio" error={errores.barrio}>
-            <input id="perfil_barrio" value={datos.barrio} onChange={cambiar('barrio')} className={campoClase(errores.barrio)} />
+            <input id="perfil_barrio" list={listaBarriosDe(datos.municipio)} autoComplete="off" value={datos.barrio} onChange={cambiar('barrio')} className={campoClase(errores.barrio)} />
+            <BarriosDatalist municipio={datos.municipio} />
           </Campo>
         </div>
         <Campo id="perfil_direccion" etiqueta="Dirección" error={errores.direccion}>

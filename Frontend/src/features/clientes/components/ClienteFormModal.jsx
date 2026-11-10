@@ -2,6 +2,8 @@ import { useState, useEffect, useMemo, useCallback } from 'react';
 import { User, Phone, Mail, MapPin } from 'lucide-react';
 import { Combobox } from '../../../shared/ui/Combobox';
 import { StepperModal } from '../../../shared/components/StepperModal';
+import { BarriosDatalist, listaBarriosDe } from '../../../shared/components/BarriosDatalist';
+import { MUNICIPIOS_ENTREGA } from '../../../shared/config/negocio';
 import { PersonaFields } from '../../../shared/components/PersonaFields';
 import { personaDe, validarPersona, personaPayload, personaCambio } from '../../../shared/utils/persona';
 
@@ -11,6 +13,8 @@ export function ClienteFormModal({ open, onClose, cliente = null, onSave, isLoad
   const [telefono, setTelefono] = useState('');
   const [correo, setCorreo] = useState('');
   const [direccion, setDireccion] = useState('');
+  const [municipio, setMunicipio] = useState('');
+  const [barrio, setBarrio] = useState('');
   const [estado, setEstado] = useState('Activo');
   const [currentStep, setCurrentStep] = useState(0);
 
@@ -22,6 +26,8 @@ export function ClienteFormModal({ open, onClose, cliente = null, onSave, isLoad
         setTelefono(cliente.telefono || '');
         setCorreo(cliente.correo || '');
         setDireccion(cliente.direccion || '');
+        setMunicipio(cliente.municipio || '');
+        setBarrio(cliente.barrio || '');
         const isInactive = String(cliente.estado ?? '').toLowerCase() === 'inactivo';
         setEstado(isInactive ? 'Inactivo' : 'Activo');
       } else {
@@ -29,6 +35,8 @@ export function ClienteFormModal({ open, onClose, cliente = null, onSave, isLoad
         setTelefono('');
         setCorreo('');
         setDireccion('');
+        setMunicipio('');
+        setBarrio('');
         setEstado('Activo');
       }
     } else {
@@ -46,9 +54,11 @@ export function ClienteFormModal({ open, onClose, cliente = null, onSave, isLoad
       telefono !== (cliente.telefono || '') ||
       correo !== (cliente.correo || '') ||
       direccion !== (cliente.direccion || '') ||
+      municipio !== (cliente.municipio || '') ||
+      barrio !== (cliente.barrio || '') ||
       estado !== (cliente.estado || 'Activo')
     );
-  }, [open, cliente, persona, telefono, correo, direccion, estado]);
+  }, [open, cliente, persona, telefono, correo, direccion, municipio, barrio, estado]);
 
   const validateStep1 = useCallback(() => validarPersona(persona), [persona]);
 
@@ -84,6 +94,8 @@ export function ClienteFormModal({ open, onClose, cliente = null, onSave, isLoad
           telefono: telefono.trim() || null,
           correo: correo.trim() || null,
           direccion: direccion.trim() || null,
+          municipio,
+          barrio: barrio.trim(),
           estado,
         }
       : {
@@ -92,6 +104,8 @@ export function ClienteFormModal({ open, onClose, cliente = null, onSave, isLoad
           telefono: telefono.trim() || null,
           correo: correo.trim() || null,
           direccion: direccion.trim() || null,
+          municipio,
+          barrio: barrio.trim(),
           estado: estado || 'Activo',
         };
 
@@ -100,7 +114,7 @@ export function ClienteFormModal({ open, onClose, cliente = null, onSave, isLoad
     } else {
       onClose();
     }
-  }, [validateStep1, validateStep2, cliente, persona, telefono, correo, direccion, estado, onSave, onClose]);
+  }, [validateStep1, validateStep2, cliente, persona, telefono, correo, direccion, municipio, barrio, estado, onSave, onClose]);
 
   const steps = useMemo(() => [
     {
@@ -187,6 +201,41 @@ export function ClienteFormModal({ open, onClose, cliente = null, onSave, isLoad
             </div>
           </div>
 
+          {/* Municipio y barrio (barrios de Medellín desde la API) */}
+          <div className="sm:col-span-1">
+            <label htmlFor="cliente_municipio" className="block text-xs sm:text-sm font-semibold text-foreground mb-1.5">
+              Municipio
+            </label>
+            <select
+              id="cliente_municipio"
+              name="municipio"
+              value={municipio}
+              onChange={(e) => setMunicipio(e.target.value)}
+              className="w-full h-10 px-3 border border-input bg-input-background rounded-lg text-sm text-foreground focus:outline-none focus:ring-2 focus:ring-ring transition-all"
+            >
+              <option value="">Selecciona…</option>
+              {MUNICIPIOS_ENTREGA.map((m) => <option key={m} value={m}>{m}</option>)}
+            </select>
+          </div>
+          <div className="sm:col-span-1">
+            <label htmlFor="cliente_barrio" className="block text-xs sm:text-sm font-semibold text-foreground mb-1.5">
+              Barrio
+            </label>
+            <input
+              id="cliente_barrio"
+              name="barrio"
+              type="text"
+              maxLength={80}
+              list={listaBarriosDe(municipio)}
+              autoComplete="off"
+              placeholder="Ej. Aranjuez"
+              value={barrio}
+              onChange={(e) => setBarrio(e.target.value)}
+              className="w-full h-10 px-3 border border-input bg-input-background rounded-lg text-sm text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-ring transition-all"
+            />
+            <BarriosDatalist municipio={municipio} />
+          </div>
+
           {/* Dirección */}
           <div className="sm:col-span-2">
             <label htmlFor="cliente_direccion" className="block text-xs sm:text-sm font-semibold text-foreground mb-1.5">
@@ -221,7 +270,7 @@ export function ClienteFormModal({ open, onClose, cliente = null, onSave, isLoad
         </div>
       ),
     },
-  ], [persona, estado, telefono, correo, direccion, validateStep1, validateStep2]);
+  ], [persona, estado, telefono, correo, direccion, municipio, barrio, validateStep1, validateStep2]);
 
   return (
     <StepperModal

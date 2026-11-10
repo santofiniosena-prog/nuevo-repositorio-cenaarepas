@@ -8,6 +8,7 @@ import { useClienteCart } from '../context/ClienteCartContext';
 import { crearPedidoCliente } from '../services/checkoutService';
 import { getMiPerfil } from '../services/cuentaService';
 import { useClienteNotifications } from '../context/ClienteNotificationContext';
+import { BarriosDatalist, listaBarriosDe } from '../../../shared/components/BarriosDatalist';
 import ComprobanteUploader from '../components/ComprobanteUploader';
 import { tieneFicha } from '../utils/sesion';
 import {
@@ -307,7 +308,8 @@ export default function ClienteCheckoutPage() {
                 </select>
               </Campo>
               <Campo id="barrio" etiqueta="Barrio" error={errores.barrio}>
-                <input id="barrio" value={entrega.barrio} onChange={cambiarEntrega('barrio')} aria-invalid={Boolean(errores.barrio)} className={campoClase(errores.barrio)} placeholder="Ej.: Aranjuez" />
+                <input id="barrio" list={listaBarriosDe(entrega.municipio)} autoComplete="off" value={entrega.barrio} onChange={cambiarEntrega('barrio')} aria-invalid={Boolean(errores.barrio)} className={campoClase(errores.barrio)} placeholder="Ej.: Aranjuez" />
+                <BarriosDatalist municipio={entrega.municipio} />
               </Campo>
             </div>
             <Campo id="direccion" etiqueta="Dirección" error={errores.direccion}>

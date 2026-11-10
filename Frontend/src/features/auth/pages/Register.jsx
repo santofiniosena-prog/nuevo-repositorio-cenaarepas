@@ -12,6 +12,7 @@ import { useTheme } from '../../../shared/contexts/ThemeContext';
 import { getDefaultRouteForRole } from '../../../shared/config/permisos';
 import { toast } from '../../../shared/utils/toast.jsx';
 import { MUNICIPIOS_ENTREGA, TIPOS_DOCUMENTO } from '../../../shared/config/negocio';
+import { BarriosDatalist, listaBarriosDe } from '../../../shared/components/BarriosDatalist';
 import cenarepasLogo from '../../../assets/cenarepas-icon.svg';
 import authRegisterBg from '../../../assets/auth/auth-register-bg.png';
 
@@ -408,6 +409,8 @@ export default function Register() {
                   <Home className="pointer-events-none absolute left-3 top-1/2 -translate-y-1/2 size-4 text-muted-foreground" />
                   <input
                     id="reg-barrio"
+                    list={listaBarriosDe(municipio)}
+                    autoComplete="off"
                     type="text"
                     value={barrio}
                     onChange={(e) => {
@@ -420,6 +423,7 @@ export default function Register() {
                     }`}
                   />
                 </div>
+                <BarriosDatalist municipio={municipio} />
                 {fieldErrors.barrio && (
                   <p className="flex items-center gap-1 text-xs font-semibold text-[#C1502D] mt-1">
                     <AlertCircle className="size-3 shrink-0" /> {fieldErrors.barrio}

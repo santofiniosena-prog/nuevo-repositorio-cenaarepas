@@ -48,8 +48,8 @@ export function PersonaFields({ persona, onChange, prefijo, soloLectura = false,
         </div>
       </div>
 
-      {/* Tipo de documento */}
-      <div className="sm:col-span-1">
+      {/* Tipo de documento (fila propia, encima del número) */}
+      <div className="sm:col-span-2">
         <label htmlFor={`${prefijo}_tipo_documento`} className={etiqueta}>
           Tipo de documento {obligatorio}
         </label>
@@ -64,7 +64,7 @@ export function PersonaFields({ persona, onChange, prefijo, soloLectura = false,
       </div>
 
       {/* Número de documento */}
-      <div className="sm:col-span-1">
+      <div className="sm:col-span-2">
         <label htmlFor={`${prefijo}_documento`} className={etiqueta}>
           Número de documento {obligatorio}
         </label>
