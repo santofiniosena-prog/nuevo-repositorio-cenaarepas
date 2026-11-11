@@ -49,3 +49,5 @@ Backend/comprobantes/
 
 # Facturas de compras guardadas en disco (sin Cloudinary): privadas
 Backend/archivos_privados/
+
+.env
