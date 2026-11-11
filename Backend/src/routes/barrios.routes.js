@@ -1,4 +1,4 @@
-import { Router } from 'express';
+﻿import { Router } from 'express';
 import { successResponse } from '../utils/response.js';
 import { obtenerBarriosMedellin } from '../services/barrios.service.js';
 import { obtenerBarriosMunicipio, esMedellin } from '../services/barrios-metropolitano.service.js';
@@ -17,7 +17,7 @@ router.get('/', async (req, res, next) => {
     const barrios = esMedellin(municipio)
       ? await obtenerBarriosMedellin()
       : obtenerBarriosMunicipio(municipio);
-    res.set('Cache-Control', 'public, max-age=3600');
+    res.set('Cache-Control', 'public, max-age=60');
     return successResponse(res, barrios);
   } catch (error) {
     return next(error);
