@@ -40,16 +40,6 @@
     "comuna": null
   },
   {
-    "id": "Cardalito-La Salada Parte Alta",
-    "nombre": "Cardalito-La Salada Parte Alta",
-    "comuna": null
-  },
-  {
-    "id": "Cardalito-Sinifaná",
-    "nombre": "Cardalito-Sinifaná",
-    "comuna": null
-  },
-  {
     "id": "Caselata",
     "nombre": "Caselata",
     "comuna": null
@@ -70,21 +60,6 @@
     "comuna": null
   },
   {
-    "id": "El 60-La Clara",
-    "nombre": "El 60-La Clara",
-    "comuna": null
-  },
-  {
-    "id": "El 60-La Salada Parte Alta",
-    "nombre": "El 60-La Salada Parte Alta",
-    "comuna": null
-  },
-  {
-    "id": "El 60-La Salada Parte Baja",
-    "nombre": "El 60-La Salada Parte Baja",
-    "comuna": null
-  },
-  {
     "id": "El Boquerón",
     "nombre": "El Boquerón",
     "comuna": null
@@ -92,21 +67,6 @@
   {
     "id": "El Cano",
     "nombre": "El Cano",
-    "comuna": null
-  },
-  {
-    "id": "El Cano-La Aguacatala",
-    "nombre": "El Cano-La Aguacatala",
-    "comuna": null
-  },
-  {
-    "id": "El Cano-La Raya",
-    "nombre": "El Cano-La Raya",
-    "comuna": null
-  },
-  {
-    "id": "El Cano-La Valeria",
-    "nombre": "El Cano-La Valeria",
     "comuna": null
   },
   {
@@ -185,16 +145,6 @@
     "comuna": null
   },
   {
-    "id": "El Raizal-La Valeria",
-    "nombre": "El Raizal-La Valeria",
-    "comuna": null
-  },
-  {
-    "id": "El Raizal-Potrerillo",
-    "nombre": "El Raizal-Potrerillo",
-    "comuna": null
-  },
-  {
     "id": "El Roble",
     "nombre": "El Roble",
     "comuna": null
@@ -225,23 +175,8 @@
     "comuna": null
   },
   {
-    "id": "La Aguacatala-La Valeria",
-    "nombre": "La Aguacatala-La Valeria",
-    "comuna": null
-  },
-  {
     "id": "La Chuscala",
     "nombre": "La Chuscala",
-    "comuna": null
-  },
-  {
-    "id": "La Chuscala-Potrerillo",
-    "nombre": "La Chuscala-Potrerillo",
-    "comuna": null
-  },
-  {
-    "id": "La Chuscala-Salinas",
-    "nombre": "La Chuscala-Salinas",
     "comuna": null
   },
   {
@@ -250,38 +185,8 @@
     "comuna": null
   },
   {
-    "id": "La Clara-La Corrala",
-    "nombre": "La Clara-La Corrala",
-    "comuna": null
-  },
-  {
-    "id": "La Clara-La Miel",
-    "nombre": "La Clara-La Miel",
-    "comuna": null
-  },
-  {
-    "id": "La Clara-La Primavera",
-    "nombre": "La Clara-La Primavera",
-    "comuna": null
-  },
-  {
-    "id": "La Clara-La Salada Parte Baja",
-    "nombre": "La Clara-La Salada Parte Baja",
-    "comuna": null
-  },
-  {
     "id": "La Corrala",
     "nombre": "La Corrala",
-    "comuna": null
-  },
-  {
-    "id": "La Corrala-La Miel",
-    "nombre": "La Corrala-La Miel",
-    "comuna": null
-  },
-  {
-    "id": "La Corrala-La Primavera",
-    "nombre": "La Corrala-La Primavera",
     "comuna": null
   },
   {
@@ -325,11 +230,6 @@
     "comuna": null
   },
   {
-    "id": "La Quiebra-Maní del Cardal",
-    "nombre": "La Quiebra-Maní del Cardal",
-    "comuna": null
-  },
-  {
     "id": "La Raya",
     "nombre": "La Raya",
     "comuna": null
@@ -340,28 +240,8 @@
     "comuna": null
   },
   {
-    "id": "La Salada Parte Alta-La Salada Parte Baja",
-    "nombre": "La Salada Parte Alta-La Salada Parte Baja",
-    "comuna": null
-  },
-  {
-    "id": "La Salada Parte Alta-Maní del Cardal",
-    "nombre": "La Salada Parte Alta-Maní del Cardal",
-    "comuna": null
-  },
-  {
-    "id": "La Salada Parte Alta-Sinifaná",
-    "nombre": "La Salada Parte Alta-Sinifaná",
-    "comuna": null
-  },
-  {
     "id": "La Salada Parte Baja",
     "nombre": "La Salada Parte Baja",
-    "comuna": null
-  },
-  {
-    "id": "La Salada Parte Baja-Maní del Cardal",
-    "nombre": "La Salada Parte Baja-Maní del Cardal",
     "comuna": null
   },
   {
@@ -377,11 +257,6 @@
   {
     "id": "La Valeria",
     "nombre": "La Valeria",
-    "comuna": null
-  },
-  {
-    "id": "La Valeria-Potrerillo",
-    "nombre": "La Valeria-Potrerillo",
     "comuna": null
   },
   {
@@ -415,16 +290,6 @@
     "comuna": null
   },
   {
-    "id": "Maní del Cardal-Salinas",
-    "nombre": "Maní del Cardal-Salinas",
-    "comuna": null
-  },
-  {
-    "id": "Maní del Cardal-Sinifaná",
-    "nombre": "Maní del Cardal-Sinifaná",
-    "comuna": null
-  },
-  {
     "id": "Media Luna",
     "nombre": "Media Luna",
     "comuna": null
@@ -445,11 +310,6 @@
     "comuna": null
   },
   {
-    "id": "Potrerillo-Salinas",
-    "nombre": "Potrerillo-Salinas",
-    "comuna": null
-  },
-  {
     "id": "Primavera",
     "nombre": "Primavera",
     "comuna": null
@@ -457,11 +317,6 @@
   {
     "id": "Puerto Baldes",
     "nombre": "Puerto Baldes",
-    "comuna": null
-  },
-  {
-    "id": "Quipe - Sector San Isidro",
-    "nombre": "Quipe - Sector San Isidro",
     "comuna": null
   },
   {
@@ -480,11 +335,6 @@
     "comuna": null
   },
   {
-    "id": "Sector Palomino",
-    "nombre": "Sector Palomino",
-    "comuna": null
-  },
-  {
     "id": "Sinifaná",
     "nombre": "Sinifaná",
     "comuna": null
@@ -492,101 +342,6 @@
   {
     "id": "Tolima",
     "nombre": "Tolima",
-    "comuna": null
-  },
-  {
-    "id": "Vereda Cardalito",
-    "nombre": "Vereda Cardalito",
-    "comuna": null
-  },
-  {
-    "id": "Vereda El 60",
-    "nombre": "Vereda El 60",
-    "comuna": null
-  },
-  {
-    "id": "Vereda El Cano",
-    "nombre": "Vereda El Cano",
-    "comuna": null
-  },
-  {
-    "id": "Vereda El Raizal",
-    "nombre": "Vereda El Raizal",
-    "comuna": null
-  },
-  {
-    "id": "Vereda La Aguacatala",
-    "nombre": "Vereda La Aguacatala",
-    "comuna": null
-  },
-  {
-    "id": "Vereda La Chuscala",
-    "nombre": "Vereda La Chuscala",
-    "comuna": null
-  },
-  {
-    "id": "Vereda La Clara",
-    "nombre": "Vereda La Clara",
-    "comuna": null
-  },
-  {
-    "id": "Vereda La Corrala",
-    "nombre": "Vereda La Corrala",
-    "comuna": null
-  },
-  {
-    "id": "Vereda La Miel",
-    "nombre": "Vereda La Miel",
-    "comuna": null
-  },
-  {
-    "id": "Vereda La Primavera",
-    "nombre": "Vereda La Primavera",
-    "comuna": null
-  },
-  {
-    "id": "Vereda La Quiebra",
-    "nombre": "Vereda La Quiebra",
-    "comuna": null
-  },
-  {
-    "id": "Vereda La Raya",
-    "nombre": "Vereda La Raya",
-    "comuna": null
-  },
-  {
-    "id": "Vereda La Salada Parte Alta",
-    "nombre": "Vereda La Salada Parte Alta",
-    "comuna": null
-  },
-  {
-    "id": "Vereda La Salada Parte Baja",
-    "nombre": "Vereda La Salada Parte Baja",
-    "comuna": null
-  },
-  {
-    "id": "Vereda La Valeria",
-    "nombre": "Vereda La Valeria",
-    "comuna": null
-  },
-  {
-    "id": "Vereda Maní del Cardal",
-    "nombre": "Vereda Maní del Cardal",
-    "comuna": null
-  },
-  {
-    "id": "Vereda Potrerillo",
-    "nombre": "Vereda Potrerillo",
-    "comuna": null
-  },
-  {
-    "id": "Vereda Salinas",
-    "nombre": "Vereda Salinas",
-    "comuna": null
-  },
-  {
-    "id": "Vereda Sinifaná",
-    "nombre": "Vereda Sinifaná",
     "comuna": null
   },
   {
