@@ -1,0 +1,452 @@
+[
+  {
+    "id": "Aguas Claras Abajo",
+    "nombre": "Aguas Claras Abajo",
+    "comuna": null
+  },
+  {
+    "id": "Aguas Claras Arriba",
+    "nombre": "Aguas Claras Arriba",
+    "comuna": null
+  },
+  {
+    "id": "Alegria",
+    "nombre": "Alegria",
+    "comuna": null
+  },
+  {
+    "id": "Altamira",
+    "nombre": "Altamira",
+    "comuna": null
+  },
+  {
+    "id": "Barrio Aguas Calientes",
+    "nombre": "Barrio Aguas Calientes",
+    "comuna": null
+  },
+  {
+    "id": "Barrio Asoviroca",
+    "nombre": "Barrio Asoviroca",
+    "comuna": null
+  },
+  {
+    "id": "Barrio Buenos Aires Parte Alta",
+    "nombre": "Barrio Buenos Aires Parte Alta",
+    "comuna": null
+  },
+  {
+    "id": "Barrio Buenos Aires Parte Baja",
+    "nombre": "Barrio Buenos Aires Parte Baja",
+    "comuna": null
+  },
+  {
+    "id": "Barrio Cecilia Caballero",
+    "nombre": "Barrio Cecilia Caballero",
+    "comuna": null
+  },
+  {
+    "id": "Barrio Centro",
+    "nombre": "Barrio Centro",
+    "comuna": null
+  },
+  {
+    "id": "Barrio Charco Negro",
+    "nombre": "Barrio Charco Negro",
+    "comuna": null
+  },
+  {
+    "id": "Barrio de Jesús",
+    "nombre": "Barrio de Jesús",
+    "comuna": null
+  },
+  {
+    "id": "Barrio El Guayabal",
+    "nombre": "Barrio El Guayabal",
+    "comuna": null
+  },
+  {
+    "id": "Barrio El Portón",
+    "nombre": "Barrio El Portón",
+    "comuna": null
+  },
+  {
+    "id": "Barrio El Progreso",
+    "nombre": "Barrio El Progreso",
+    "comuna": null
+  },
+  {
+    "id": "Barrio La Esmeralda",
+    "nombre": "Barrio La Esmeralda",
+    "comuna": null
+  },
+  {
+    "id": "Barrio Pepe Sierra Uno",
+    "nombre": "Barrio Pepe Sierra Uno",
+    "comuna": null
+  },
+  {
+    "id": "Barrio San Rafael",
+    "nombre": "Barrio San Rafael",
+    "comuna": null
+  },
+  {
+    "id": "Barrio Veinte de Mayo",
+    "nombre": "Barrio Veinte de Mayo",
+    "comuna": null
+  },
+  {
+    "id": "Buena Vista",
+    "nombre": "Buena Vista",
+    "comuna": null
+  },
+  {
+    "id": "Buenos Aires",
+    "nombre": "Buenos Aires",
+    "comuna": null
+  },
+  {
+    "id": "Buga",
+    "nombre": "Buga",
+    "comuna": null
+  },
+  {
+    "id": "Cascada del Resplandor",
+    "nombre": "Cascada del Resplandor",
+    "comuna": null
+  },
+  {
+    "id": "Cascada Ipanachaque",
+    "nombre": "Cascada Ipanachaque",
+    "comuna": null
+  },
+  {
+    "id": "Cestillal",
+    "nombre": "Cestillal",
+    "comuna": null
+  },
+  {
+    "id": "Chorro Hondo",
+    "nombre": "Chorro Hondo",
+    "comuna": null
+  },
+  {
+    "id": "Cite",
+    "nombre": "Cite",
+    "comuna": null
+  },
+  {
+    "id": "Corrientes",
+    "nombre": "Corrientes",
+    "comuna": null
+  },
+  {
+    "id": "Cristales",
+    "nombre": "Cristales",
+    "comuna": null
+  },
+  {
+    "id": "Dos Quebradas",
+    "nombre": "Dos Quebradas",
+    "comuna": null
+  },
+  {
+    "id": "El Cortado",
+    "nombre": "El Cortado",
+    "comuna": null
+  },
+  {
+    "id": "El Guayabo",
+    "nombre": "El Guayabo",
+    "comuna": null
+  },
+  {
+    "id": "El Hatillo",
+    "nombre": "El Hatillo",
+    "comuna": null
+  },
+  {
+    "id": "El Hoyo",
+    "nombre": "El Hoyo",
+    "comuna": null
+  },
+  {
+    "id": "El Machete",
+    "nombre": "El Machete",
+    "comuna": null
+  },
+  {
+    "id": "El Rodeo",
+    "nombre": "El Rodeo",
+    "comuna": null
+  },
+  {
+    "id": "El Tigre",
+    "nombre": "El Tigre",
+    "comuna": null
+  },
+  {
+    "id": "El Viento",
+    "nombre": "El Viento",
+    "comuna": null
+  },
+  {
+    "id": "Filo Verde",
+    "nombre": "Filo Verde",
+    "comuna": null
+  },
+  {
+    "id": "Francisco de Paula Santander",
+    "nombre": "Francisco de Paula Santander",
+    "comuna": null
+  },
+  {
+    "id": "Graciano",
+    "nombre": "Graciano",
+    "comuna": null
+  },
+  {
+    "id": "Guayabal",
+    "nombre": "Guayabal",
+    "comuna": null
+  },
+  {
+    "id": "Isaza",
+    "nombre": "Isaza",
+    "comuna": null
+  },
+  {
+    "id": "La Aguada",
+    "nombre": "La Aguada",
+    "comuna": null
+  },
+  {
+    "id": "La Calda",
+    "nombre": "La Calda",
+    "comuna": null
+  },
+  {
+    "id": "La Cejita",
+    "nombre": "La Cejita",
+    "comuna": null
+  },
+  {
+    "id": "La Chapa",
+    "nombre": "La Chapa",
+    "comuna": null
+  },
+  {
+    "id": "La Chapa Alta",
+    "nombre": "La Chapa Alta",
+    "comuna": null
+  },
+  {
+    "id": "La Chapa Baja",
+    "nombre": "La Chapa Baja",
+    "comuna": null
+  },
+  {
+    "id": "La Chorrera",
+    "nombre": "La Chorrera",
+    "comuna": null
+  },
+  {
+    "id": "La Cuesta",
+    "nombre": "La Cuesta",
+    "comuna": null
+  },
+  {
+    "id": "La Ese",
+    "nombre": "La Ese",
+    "comuna": null
+  },
+  {
+    "id": "La Gómez",
+    "nombre": "La Gómez",
+    "comuna": null
+  },
+  {
+    "id": "La Herradura",
+    "nombre": "La Herradura",
+    "comuna": null
+  },
+  {
+    "id": "La Lomita",
+    "nombre": "La Lomita",
+    "comuna": null
+  },
+  {
+    "id": "La Montañita",
+    "nombre": "La Montañita",
+    "comuna": null
+  },
+  {
+    "id": "La Palma",
+    "nombre": "La Palma",
+    "comuna": null
+  },
+  {
+    "id": "La Playa",
+    "nombre": "La Playa",
+    "comuna": null
+  },
+  {
+    "id": "La Quiebra",
+    "nombre": "La Quiebra",
+    "comuna": null
+  },
+  {
+    "id": "La Tolda",
+    "nombre": "La Tolda",
+    "comuna": null
+  },
+  {
+    "id": "Las Lajas",
+    "nombre": "Las Lajas",
+    "comuna": null
+  },
+  {
+    "id": "Las Peñas",
+    "nombre": "Las Peñas",
+    "comuna": null
+  },
+  {
+    "id": "Las Victorias",
+    "nombre": "Las Victorias",
+    "comuna": null
+  },
+  {
+    "id": "Matasano",
+    "nombre": "Matasano",
+    "comuna": null
+  },
+  {
+    "id": "Mocorongo",
+    "nombre": "Mocorongo",
+    "comuna": null
+  },
+  {
+    "id": "Molino Viejo",
+    "nombre": "Molino Viejo",
+    "comuna": null
+  },
+  {
+    "id": "Monteloro",
+    "nombre": "Monteloro",
+    "comuna": null
+  },
+  {
+    "id": "Pacho Hondo",
+    "nombre": "Pacho Hondo",
+    "comuna": null
+  },
+  {
+    "id": "Pantanillo",
+    "nombre": "Pantanillo",
+    "comuna": null
+  },
+  {
+    "id": "Paraiso",
+    "nombre": "Paraiso",
+    "comuna": null
+  },
+  {
+    "id": "Platanito",
+    "nombre": "Platanito",
+    "comuna": null
+  },
+  {
+    "id": "Platanito Parte Alta",
+    "nombre": "Platanito Parte Alta",
+    "comuna": null
+  },
+  {
+    "id": "Platanito Parte Baja",
+    "nombre": "Platanito Parte Baja",
+    "comuna": null
+  },
+  {
+    "id": "Popalito",
+    "nombre": "Popalito",
+    "comuna": null
+  },
+  {
+    "id": "Potrerito",
+    "nombre": "Potrerito",
+    "comuna": null
+  },
+  {
+    "id": "Pozo Negro",
+    "nombre": "Pozo Negro",
+    "comuna": null
+  },
+  {
+    "id": "Quintero",
+    "nombre": "Quintero",
+    "comuna": null
+  },
+  {
+    "id": "San Eugenio",
+    "nombre": "San Eugenio",
+    "comuna": null
+  },
+  {
+    "id": "San Francisco",
+    "nombre": "San Francisco",
+    "comuna": null
+  },
+  {
+    "id": "Santa Barbara",
+    "nombre": "Santa Barbara",
+    "comuna": null
+  },
+  {
+    "id": "Santa Rosa",
+    "nombre": "Santa Rosa",
+    "comuna": null
+  },
+  {
+    "id": "Tablazo Hatillo",
+    "nombre": "Tablazo Hatillo",
+    "comuna": null
+  },
+  {
+    "id": "Tablazo Popalito",
+    "nombre": "Tablazo Popalito",
+    "comuna": null
+  },
+  {
+    "id": "Tamborcito",
+    "nombre": "Tamborcito",
+    "comuna": null
+  },
+  {
+    "id": "Vallecitos",
+    "nombre": "Vallecitos",
+    "comuna": null
+  },
+  {
+    "id": "Ventanas",
+    "nombre": "Ventanas",
+    "comuna": null
+  },
+  {
+    "id": "Vereda La Calda",
+    "nombre": "Vereda La Calda",
+    "comuna": null
+  },
+  {
+    "id": "Villa Nueva",
+    "nombre": "Villa Nueva",
+    "comuna": null
+  },
+  {
+    "id": "Volantín",
+    "nombre": "Volantín",
+    "comuna": null
+  },
+  {
+    "id": "Yarumito",
+    "nombre": "Yarumito",
+    "comuna": null
+  }
+]

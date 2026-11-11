@@ -1,0 +1,597 @@
+[
+  {
+    "id": "Alto del aire",
+    "nombre": "Alto del aire",
+    "comuna": null
+  },
+  {
+    "id": "Alto El Espino",
+    "nombre": "Alto El Espino",
+    "comuna": null
+  },
+  {
+    "id": "Arrayan",
+    "nombre": "Arrayan",
+    "comuna": null
+  },
+  {
+    "id": "Boquemonte",
+    "nombre": "Boquemonte",
+    "comuna": null
+  },
+  {
+    "id": "Buenos Aires",
+    "nombre": "Buenos Aires",
+    "comuna": null
+  },
+  {
+    "id": "Campo Alegre",
+    "nombre": "Campo Alegre",
+    "comuna": null
+  },
+  {
+    "id": "Cantarranas",
+    "nombre": "Cantarranas",
+    "comuna": null
+  },
+  {
+    "id": "Cardalito",
+    "nombre": "Cardalito",
+    "comuna": null
+  },
+  {
+    "id": "Cardalito-La Salada Parte Alta",
+    "nombre": "Cardalito-La Salada Parte Alta",
+    "comuna": null
+  },
+  {
+    "id": "Cardalito-Sinifaná",
+    "nombre": "Cardalito-Sinifaná",
+    "comuna": null
+  },
+  {
+    "id": "Caselata",
+    "nombre": "Caselata",
+    "comuna": null
+  },
+  {
+    "id": "Caseteja",
+    "nombre": "Caseteja",
+    "comuna": null
+  },
+  {
+    "id": "Convenio",
+    "nombre": "Convenio",
+    "comuna": null
+  },
+  {
+    "id": "El 60",
+    "nombre": "El 60",
+    "comuna": null
+  },
+  {
+    "id": "El 60-La Clara",
+    "nombre": "El 60-La Clara",
+    "comuna": null
+  },
+  {
+    "id": "El 60-La Salada Parte Alta",
+    "nombre": "El 60-La Salada Parte Alta",
+    "comuna": null
+  },
+  {
+    "id": "El 60-La Salada Parte Baja",
+    "nombre": "El 60-La Salada Parte Baja",
+    "comuna": null
+  },
+  {
+    "id": "El Boquerón",
+    "nombre": "El Boquerón",
+    "comuna": null
+  },
+  {
+    "id": "El Cano",
+    "nombre": "El Cano",
+    "comuna": null
+  },
+  {
+    "id": "El Cano-La Aguacatala",
+    "nombre": "El Cano-La Aguacatala",
+    "comuna": null
+  },
+  {
+    "id": "El Cano-La Raya",
+    "nombre": "El Cano-La Raya",
+    "comuna": null
+  },
+  {
+    "id": "El Cano-La Valeria",
+    "nombre": "El Cano-La Valeria",
+    "comuna": null
+  },
+  {
+    "id": "El Cerezo",
+    "nombre": "El Cerezo",
+    "comuna": null
+  },
+  {
+    "id": "El Chuscal",
+    "nombre": "El Chuscal",
+    "comuna": null
+  },
+  {
+    "id": "El Diamante",
+    "nombre": "El Diamante",
+    "comuna": null
+  },
+  {
+    "id": "El Espinal",
+    "nombre": "El Espinal",
+    "comuna": null
+  },
+  {
+    "id": "El Godo",
+    "nombre": "El Godo",
+    "comuna": null
+  },
+  {
+    "id": "El Horno",
+    "nombre": "El Horno",
+    "comuna": null
+  },
+  {
+    "id": "El Monumento",
+    "nombre": "El Monumento",
+    "comuna": null
+  },
+  {
+    "id": "El Pajarito",
+    "nombre": "El Pajarito",
+    "comuna": null
+  },
+  {
+    "id": "El Palmar",
+    "nombre": "El Palmar",
+    "comuna": null
+  },
+  {
+    "id": "El Paraiso",
+    "nombre": "El Paraiso",
+    "comuna": null
+  },
+  {
+    "id": "El Paramo",
+    "nombre": "El Paramo",
+    "comuna": null
+  },
+  {
+    "id": "El Pedrero",
+    "nombre": "El Pedrero",
+    "comuna": null
+  },
+  {
+    "id": "El Pino",
+    "nombre": "El Pino",
+    "comuna": null
+  },
+  {
+    "id": "El Porvenir",
+    "nombre": "El Porvenir",
+    "comuna": null
+  },
+  {
+    "id": "El Raizal",
+    "nombre": "El Raizal",
+    "comuna": null
+  },
+  {
+    "id": "El Raizal-La Valeria",
+    "nombre": "El Raizal-La Valeria",
+    "comuna": null
+  },
+  {
+    "id": "El Raizal-Potrerillo",
+    "nombre": "El Raizal-Potrerillo",
+    "comuna": null
+  },
+  {
+    "id": "El Roble",
+    "nombre": "El Roble",
+    "comuna": null
+  },
+  {
+    "id": "El Tablon",
+    "nombre": "El Tablon",
+    "comuna": null
+  },
+  {
+    "id": "El Volcan",
+    "nombre": "El Volcan",
+    "comuna": null
+  },
+  {
+    "id": "Guacamayal",
+    "nombre": "Guacamayal",
+    "comuna": null
+  },
+  {
+    "id": "Hacienda La Margarita",
+    "nombre": "Hacienda La Margarita",
+    "comuna": null
+  },
+  {
+    "id": "La Aguacatala",
+    "nombre": "La Aguacatala",
+    "comuna": null
+  },
+  {
+    "id": "La Aguacatala-La Valeria",
+    "nombre": "La Aguacatala-La Valeria",
+    "comuna": null
+  },
+  {
+    "id": "La Chuscala",
+    "nombre": "La Chuscala",
+    "comuna": null
+  },
+  {
+    "id": "La Chuscala-Potrerillo",
+    "nombre": "La Chuscala-Potrerillo",
+    "comuna": null
+  },
+  {
+    "id": "La Chuscala-Salinas",
+    "nombre": "La Chuscala-Salinas",
+    "comuna": null
+  },
+  {
+    "id": "La Clara",
+    "nombre": "La Clara",
+    "comuna": null
+  },
+  {
+    "id": "La Clara-La Corrala",
+    "nombre": "La Clara-La Corrala",
+    "comuna": null
+  },
+  {
+    "id": "La Clara-La Miel",
+    "nombre": "La Clara-La Miel",
+    "comuna": null
+  },
+  {
+    "id": "La Clara-La Primavera",
+    "nombre": "La Clara-La Primavera",
+    "comuna": null
+  },
+  {
+    "id": "La Clara-La Salada Parte Baja",
+    "nombre": "La Clara-La Salada Parte Baja",
+    "comuna": null
+  },
+  {
+    "id": "La Corrala",
+    "nombre": "La Corrala",
+    "comuna": null
+  },
+  {
+    "id": "La Corrala-La Miel",
+    "nombre": "La Corrala-La Miel",
+    "comuna": null
+  },
+  {
+    "id": "La Corrala-La Primavera",
+    "nombre": "La Corrala-La Primavera",
+    "comuna": null
+  },
+  {
+    "id": "La Escondida",
+    "nombre": "La Escondida",
+    "comuna": null
+  },
+  {
+    "id": "La Esperanza",
+    "nombre": "La Esperanza",
+    "comuna": null
+  },
+  {
+    "id": "La Florida",
+    "nombre": "La Florida",
+    "comuna": null
+  },
+  {
+    "id": "La Maria",
+    "nombre": "La Maria",
+    "comuna": null
+  },
+  {
+    "id": "La Miel",
+    "nombre": "La Miel",
+    "comuna": null
+  },
+  {
+    "id": "La Pomera",
+    "nombre": "La Pomera",
+    "comuna": null
+  },
+  {
+    "id": "La Primavera",
+    "nombre": "La Primavera",
+    "comuna": null
+  },
+  {
+    "id": "La Quiebra",
+    "nombre": "La Quiebra",
+    "comuna": null
+  },
+  {
+    "id": "La Quiebra-Maní del Cardal",
+    "nombre": "La Quiebra-Maní del Cardal",
+    "comuna": null
+  },
+  {
+    "id": "La Raya",
+    "nombre": "La Raya",
+    "comuna": null
+  },
+  {
+    "id": "La Salada Parte Alta",
+    "nombre": "La Salada Parte Alta",
+    "comuna": null
+  },
+  {
+    "id": "La Salada Parte Alta-La Salada Parte Baja",
+    "nombre": "La Salada Parte Alta-La Salada Parte Baja",
+    "comuna": null
+  },
+  {
+    "id": "La Salada Parte Alta-Maní del Cardal",
+    "nombre": "La Salada Parte Alta-Maní del Cardal",
+    "comuna": null
+  },
+  {
+    "id": "La Salada Parte Alta-Sinifaná",
+    "nombre": "La Salada Parte Alta-Sinifaná",
+    "comuna": null
+  },
+  {
+    "id": "La Salada Parte Baja",
+    "nombre": "La Salada Parte Baja",
+    "comuna": null
+  },
+  {
+    "id": "La Salada Parte Baja-Maní del Cardal",
+    "nombre": "La Salada Parte Baja-Maní del Cardal",
+    "comuna": null
+  },
+  {
+    "id": "La Tobara",
+    "nombre": "La Tobara",
+    "comuna": null
+  },
+  {
+    "id": "La Tolva",
+    "nombre": "La Tolva",
+    "comuna": null
+  },
+  {
+    "id": "La Valeria",
+    "nombre": "La Valeria",
+    "comuna": null
+  },
+  {
+    "id": "La Valeria-Potrerillo",
+    "nombre": "La Valeria-Potrerillo",
+    "comuna": null
+  },
+  {
+    "id": "Las Alberras",
+    "nombre": "Las Alberras",
+    "comuna": null
+  },
+  {
+    "id": "Las Lagunas",
+    "nombre": "Las Lagunas",
+    "comuna": null
+  },
+  {
+    "id": "Las Puertas",
+    "nombre": "Las Puertas",
+    "comuna": null
+  },
+  {
+    "id": "Los Cerezos",
+    "nombre": "Los Cerezos",
+    "comuna": null
+  },
+  {
+    "id": "Malpaso",
+    "nombre": "Malpaso",
+    "comuna": null
+  },
+  {
+    "id": "Maní del Cardal",
+    "nombre": "Maní del Cardal",
+    "comuna": null
+  },
+  {
+    "id": "Maní del Cardal-Salinas",
+    "nombre": "Maní del Cardal-Salinas",
+    "comuna": null
+  },
+  {
+    "id": "Maní del Cardal-Sinifaná",
+    "nombre": "Maní del Cardal-Sinifaná",
+    "comuna": null
+  },
+  {
+    "id": "Media Luna",
+    "nombre": "Media Luna",
+    "comuna": null
+  },
+  {
+    "id": "Nariño",
+    "nombre": "Nariño",
+    "comuna": null
+  },
+  {
+    "id": "Palomina",
+    "nombre": "Palomina",
+    "comuna": null
+  },
+  {
+    "id": "Potrerillo",
+    "nombre": "Potrerillo",
+    "comuna": null
+  },
+  {
+    "id": "Potrerillo-Salinas",
+    "nombre": "Potrerillo-Salinas",
+    "comuna": null
+  },
+  {
+    "id": "Primavera",
+    "nombre": "Primavera",
+    "comuna": null
+  },
+  {
+    "id": "Puerto Baldes",
+    "nombre": "Puerto Baldes",
+    "comuna": null
+  },
+  {
+    "id": "Quipe - Sector San Isidro",
+    "nombre": "Quipe - Sector San Isidro",
+    "comuna": null
+  },
+  {
+    "id": "Salinas",
+    "nombre": "Salinas",
+    "comuna": null
+  },
+  {
+    "id": "San Isidro",
+    "nombre": "San Isidro",
+    "comuna": null
+  },
+  {
+    "id": "Santo Meno",
+    "nombre": "Santo Meno",
+    "comuna": null
+  },
+  {
+    "id": "Sector Palomino",
+    "nombre": "Sector Palomino",
+    "comuna": null
+  },
+  {
+    "id": "Sinifaná",
+    "nombre": "Sinifaná",
+    "comuna": null
+  },
+  {
+    "id": "Tolima",
+    "nombre": "Tolima",
+    "comuna": null
+  },
+  {
+    "id": "Vereda Cardalito",
+    "nombre": "Vereda Cardalito",
+    "comuna": null
+  },
+  {
+    "id": "Vereda El 60",
+    "nombre": "Vereda El 60",
+    "comuna": null
+  },
+  {
+    "id": "Vereda El Cano",
+    "nombre": "Vereda El Cano",
+    "comuna": null
+  },
+  {
+    "id": "Vereda El Raizal",
+    "nombre": "Vereda El Raizal",
+    "comuna": null
+  },
+  {
+    "id": "Vereda La Aguacatala",
+    "nombre": "Vereda La Aguacatala",
+    "comuna": null
+  },
+  {
+    "id": "Vereda La Chuscala",
+    "nombre": "Vereda La Chuscala",
+    "comuna": null
+  },
+  {
+    "id": "Vereda La Clara",
+    "nombre": "Vereda La Clara",
+    "comuna": null
+  },
+  {
+    "id": "Vereda La Corrala",
+    "nombre": "Vereda La Corrala",
+    "comuna": null
+  },
+  {
+    "id": "Vereda La Miel",
+    "nombre": "Vereda La Miel",
+    "comuna": null
+  },
+  {
+    "id": "Vereda La Primavera",
+    "nombre": "Vereda La Primavera",
+    "comuna": null
+  },
+  {
+    "id": "Vereda La Quiebra",
+    "nombre": "Vereda La Quiebra",
+    "comuna": null
+  },
+  {
+    "id": "Vereda La Raya",
+    "nombre": "Vereda La Raya",
+    "comuna": null
+  },
+  {
+    "id": "Vereda La Salada Parte Alta",
+    "nombre": "Vereda La Salada Parte Alta",
+    "comuna": null
+  },
+  {
+    "id": "Vereda La Salada Parte Baja",
+    "nombre": "Vereda La Salada Parte Baja",
+    "comuna": null
+  },
+  {
+    "id": "Vereda La Valeria",
+    "nombre": "Vereda La Valeria",
+    "comuna": null
+  },
+  {
+    "id": "Vereda Maní del Cardal",
+    "nombre": "Vereda Maní del Cardal",
+    "comuna": null
+  },
+  {
+    "id": "Vereda Potrerillo",
+    "nombre": "Vereda Potrerillo",
+    "comuna": null
+  },
+  {
+    "id": "Vereda Salinas",
+    "nombre": "Vereda Salinas",
+    "comuna": null
+  },
+  {
+    "id": "Vereda Sinifaná",
+    "nombre": "Vereda Sinifaná",
+    "comuna": null
+  },
+  {
+    "id": "Vueltas Mercadito",
+    "nombre": "Vueltas Mercadito",
+    "comuna": null
+  }
+]

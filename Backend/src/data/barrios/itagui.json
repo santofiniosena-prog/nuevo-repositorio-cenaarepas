@@ -1,0 +1,32 @@
+[
+  {
+    "id": "Central Mayorista de Antioquia",
+    "nombre": "Central Mayorista de Antioquia",
+    "comuna": null
+  },
+  {
+    "id": "La Loma de Los Zuleta",
+    "nombre": "La Loma de Los Zuleta",
+    "comuna": null
+  },
+  {
+    "id": "La María",
+    "nombre": "La María",
+    "comuna": null
+  },
+  {
+    "id": "Olivares",
+    "nombre": "Olivares",
+    "comuna": null
+  },
+  {
+    "id": "Santa María",
+    "nombre": "Santa María",
+    "comuna": null
+  },
+  {
+    "id": "Santa Maria la Nueva",
+    "nombre": "Santa Maria la Nueva",
+    "comuna": null
+  }
+]

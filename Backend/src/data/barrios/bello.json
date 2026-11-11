@@ -1,0 +1,277 @@
+[
+  {
+    "id": "Altavista",
+    "nombre": "Altavista",
+    "comuna": null
+  },
+  {
+    "id": "Altos de Niquía",
+    "nombre": "Altos de Niquía",
+    "comuna": null
+  },
+  {
+    "id": "Andalucía",
+    "nombre": "Andalucía",
+    "comuna": null
+  },
+  {
+    "id": "Aralias",
+    "nombre": "Aralias",
+    "comuna": null
+  },
+  {
+    "id": "Barrio Nuevo",
+    "nombre": "Barrio Nuevo",
+    "comuna": null
+  },
+  {
+    "id": "Barrio Obrero",
+    "nombre": "Barrio Obrero",
+    "comuna": null
+  },
+  {
+    "id": "Bellavista",
+    "nombre": "Bellavista",
+    "comuna": null
+  },
+  {
+    "id": "Briceñito",
+    "nombre": "Briceñito",
+    "comuna": null
+  },
+  {
+    "id": "Cabañas",
+    "nombre": "Cabañas",
+    "comuna": null
+  },
+  {
+    "id": "Casa Blanca",
+    "nombre": "Casa Blanca",
+    "comuna": null
+  },
+  {
+    "id": "Central",
+    "nombre": "Central",
+    "comuna": null
+  },
+  {
+    "id": "Centro",
+    "nombre": "Centro",
+    "comuna": null
+  },
+  {
+    "id": "El Carmelo",
+    "nombre": "El Carmelo",
+    "comuna": null
+  },
+  {
+    "id": "El Paraíso",
+    "nombre": "El Paraíso",
+    "comuna": null
+  },
+  {
+    "id": "El Piñal",
+    "nombre": "El Piñal",
+    "comuna": null
+  },
+  {
+    "id": "El Porvenir",
+    "nombre": "El Porvenir",
+    "comuna": null
+  },
+  {
+    "id": "El Rosario",
+    "nombre": "El Rosario",
+    "comuna": null
+  },
+  {
+    "id": "El Salvador",
+    "nombre": "El Salvador",
+    "comuna": null
+  },
+  {
+    "id": "Espíritu Santo",
+    "nombre": "Espíritu Santo",
+    "comuna": null
+  },
+  {
+    "id": "Fabricato",
+    "nombre": "Fabricato",
+    "comuna": null
+  },
+  {
+    "id": "Florida Verde",
+    "nombre": "Florida Verde",
+    "comuna": null
+  },
+  {
+    "id": "Fontidueño",
+    "nombre": "Fontidueño",
+    "comuna": null
+  },
+  {
+    "id": "Granizal",
+    "nombre": "Granizal",
+    "comuna": null
+  },
+  {
+    "id": "Hato Viejo",
+    "nombre": "Hato Viejo",
+    "comuna": null
+  },
+  {
+    "id": "La Cabañita",
+    "nombre": "La Cabañita",
+    "comuna": null
+  },
+  {
+    "id": "La Estación",
+    "nombre": "La Estación",
+    "comuna": null
+  },
+  {
+    "id": "La Florida",
+    "nombre": "La Florida",
+    "comuna": null
+  },
+  {
+    "id": "La Gabriela",
+    "nombre": "La Gabriela",
+    "comuna": null
+  },
+  {
+    "id": "La Gran Avenida",
+    "nombre": "La Gran Avenida",
+    "comuna": null
+  },
+  {
+    "id": "La Medina",
+    "nombre": "La Medina",
+    "comuna": null
+  },
+  {
+    "id": "La Meseta",
+    "nombre": "La Meseta",
+    "comuna": null
+  },
+  {
+    "id": "La Palma",
+    "nombre": "La Palma",
+    "comuna": null
+  },
+  {
+    "id": "La Remingia",
+    "nombre": "La Remingia",
+    "comuna": null
+  },
+  {
+    "id": "La Unión",
+    "nombre": "La Unión",
+    "comuna": null
+  },
+  {
+    "id": "Manchester",
+    "nombre": "Manchester",
+    "comuna": null
+  },
+  {
+    "id": "Mesa",
+    "nombre": "Mesa",
+    "comuna": null
+  },
+  {
+    "id": "Nazareth",
+    "nombre": "Nazareth",
+    "comuna": null
+  },
+  {
+    "id": "Niquía",
+    "nombre": "Niquía",
+    "comuna": null
+  },
+  {
+    "id": "Pantano",
+    "nombre": "Pantano",
+    "comuna": null
+  },
+  {
+    "id": "París",
+    "nombre": "París",
+    "comuna": null
+  },
+  {
+    "id": "Peña Verde",
+    "nombre": "Peña Verde",
+    "comuna": null
+  },
+  {
+    "id": "Pérez",
+    "nombre": "Pérez",
+    "comuna": null
+  },
+  {
+    "id": "Potrerito",
+    "nombre": "Potrerito",
+    "comuna": null
+  },
+  {
+    "id": "Puerto Bello",
+    "nombre": "Puerto Bello",
+    "comuna": null
+  },
+  {
+    "id": "Riachuelos",
+    "nombre": "Riachuelos",
+    "comuna": null
+  },
+  {
+    "id": "Rincón Santo",
+    "nombre": "Rincón Santo",
+    "comuna": null
+  },
+  {
+    "id": "Sabana Larga",
+    "nombre": "Sabana Larga",
+    "comuna": null
+  },
+  {
+    "id": "Salento",
+    "nombre": "Salento",
+    "comuna": null
+  },
+  {
+    "id": "Salto Chorrolato",
+    "nombre": "Salto Chorrolato",
+    "comuna": null
+  },
+  {
+    "id": "Salto El Barro",
+    "nombre": "Salto El Barro",
+    "comuna": null
+  },
+  {
+    "id": "San Félix",
+    "nombre": "San Félix",
+    "comuna": null
+  },
+  {
+    "id": "Suárez",
+    "nombre": "Suárez",
+    "comuna": null
+  },
+  {
+    "id": "Tierra Adentro",
+    "nombre": "Tierra Adentro",
+    "comuna": null
+  },
+  {
+    "id": "Trapiche",
+    "nombre": "Trapiche",
+    "comuna": null
+  },
+  {
+    "id": "Zamora",
+    "nombre": "Zamora",
+    "comuna": null
+  }
+]
